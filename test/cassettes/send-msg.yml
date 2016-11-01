@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44456611158-98472065029-80b6c57e86f0c3f4967936fb92cbde6f
+    body:
+      encoding: UTF-8
+      string: text=%3Asloth%3A&channel=test-api-parens&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '315'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:26:40 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - 4eb1dab5-f161-4b54-9424-11566e88c415
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 b7fec677fffcdd47588ce3a6a9e6d5e1.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - KdcBSeVW2y9nOHoTqt-BZfA0IRbH6rTCbZRmzm0-dwSJuaf8mWzjkg==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478021199.000668","message":{"text":":sloth:","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE0CK8F","type":"message","subtype":"bot_message","ts":"1478021199.000668"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:26:40 GMT
+- request:
+    method: post
+    uri: https://slack.com/api/chat.postMessage?token=xoxp-38644938452-44456611158-98472065029-80b6c57e86f0c3f4967936fb92cbde6f
+    body:
+      encoding: UTF-8
+      string: text=%3Asloth%3A&channel=C2V4F5W1Y&username=CheezItBot&icon_url=https%3A%2F%2Favatars.slack-edge.com%2F2016-06-01%2F47243492547_e3bd80a93a62bd63b8e6_72.png&as_user=false
+    headers:
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '315'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Content-Security-Policy:
+      - referrer no-referrer;
+      Date:
+      - Tue, 01 Nov 2016 17:47:20 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Vary:
+      - Accept-Encoding
+      X-Accepted-Oauth-Scopes:
+      - chat:write:bot,post
+      X-Content-Type-Options:
+      - nosniff
+      X-Oauth-Scopes:
+      - identify,read,post,client,apps
+      X-Slack-Backend:
+      - h
+      X-Slack-Req-Id:
+      - c456945a-01cd-459d-a71c-8427b3522f89
+      X-Xss-Protection:
+      - '0'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 6525af3d61308051c107b1f380683620.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Bj2VhZMMW4sa4I9G8k7eCjpF8OPZtM7ZdFEu_z01pMKpwgvFtxCT-A==
+    body:
+      encoding: UTF-8
+      string: '{"ok":true,"channel":"C2V4F5W1Y","ts":"1478022440.000687","message":{"text":":sloth:","username":"CheezItBot","icons":{"image_48":"https:\/\/s3-us-west-2.amazonaws.com\/slack-files2\/bot_icons\/2016-10-27\/97403587554_48.png"},"bot_id":"B2WE0CK8F","type":"message","subtype":"bot_message","ts":"1478022440.000687"}}'
+    http_version: 
+  recorded_at: Tue, 01 Nov 2016 17:47:21 GMT
+recorded_with: VCR 3.0.3

@@ -21,8 +21,8 @@ class SlackApiWrapper
     token = TOKEN if token == nil
 
     url = BASE_URL + "chat.postMessage?" + "token=#{token}"
-    puts url
-    puts "Channel = #{channel}"
+    # puts url
+    # puts "Channel = #{channel}"
     data = HTTParty.post(url,
                body:  {
                   "text" => "#{msg}",
