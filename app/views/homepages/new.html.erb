@@ -1,6 +1,7 @@
 
 <h1>Send Message to <%= @channel %> </h1>
 
+<<<<<<< HEAD
 <%= form_tag create_message_path, method: "post" do %>
   <%= label_tag :message, "Message" %>
   <%= text_field_tag :message %>
@@ -13,3 +14,11 @@
 <%# params %>
 
 <%# flash[:notice] %>
+=======
+<%= form_tag homepages_path, method: "post" do %>
+  <%= label_tag :message, "Message" %>
+  <%= text_field_tag :message %>
+  <%= hidden_field_tag :channel, @channel_id %>
+  <%= submit_tag "Send Message", class: "Button" %>
+<% end %>
+>>>>>>> 4401558f78a7a72e9792f96177e63a30424a404a

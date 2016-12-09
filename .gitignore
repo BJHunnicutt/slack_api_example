@@ -15,6 +15,12 @@
 /log/*
 !/log/.keep
 /tmp
+<<<<<<< HEAD
 .env
 
 *DS_Store
+=======
+
+.env
+.ds_store
+>>>>>>> 4401558f78a7a72e9792f96177e63a30424a404a
